@@ -214,6 +214,35 @@
     }
   },
   {
+    "name": "azure-resiliency-agent",
+    "description": "Assess Azure application architectures, generate zone-resilient infrastructure as code, and review existing Bicep, ARM JSON, or Terraform through Azure Resiliency Agent.",
+    "version": "0.1.0",
+    "author": {
+      "name": "Microsoft Azure",
+      "url": "https://azure.microsoft.com"
+    },
+    "homepage": "https://learn.microsoft.com/azure/copilot/resiliency-agent",
+    "keywords": [
+      "azure",
+      "resiliency",
+      "availability-zones",
+      "zone-redundancy",
+      "architecture-assessment",
+      "infrastructure-as-code",
+      "bicep",
+      "arm-templates",
+      "terraform"
+    ],
+    "license": "MIT",
+    "repository": "https://github.com/Azure/azure-resiliency-agent",
+    "source": {
+      "source": "github",
+      "repo": "Azure/azure-resiliency-agent",
+      "ref": "v0.1.0",
+      "sha": "c1f065cc412df57c3b04429782f4ea65eacf390b"
+    }
+  },
+  {
     "name": "azure-resources-query",
     "description": "Browse Azure resources through read-only Resource Graph queries with explicit subscription selection in a Copilot canvas.",
     "version": "0.1.5",
